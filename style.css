@@ -7,7 +7,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.nav {
+nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -15,10 +15,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-bottom: 3px solid #9f9d9d;
   margin: 10px;
-  /* gap: 20px; */
-  /* cursor: pointer; */
-  /* list-style: none; */
-  /* text-decoration: none; */
 }
 ul{
   display: flex;
