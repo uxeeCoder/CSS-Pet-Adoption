@@ -5,70 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pets Dashboard</title>
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dashboard.css" />
   </head>
-  <body>
-    <main>
-        <header>
-            <nav aria-label="Main Navigation">
-              <h1> Pets R Us</h1>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="browse.html">Pets</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-              </ul>
-            </nav>
-          </header>
-      <h1 class="text">New Arrivals</h1>
-      <section class="gridDivider">
-        <div class="dividerDb">
-          <section aria-label="Available Pets">
-            <div class="cardDb">
-              <img
-                src="https://images.unsplash.com/photo-1603314585442-ee3b3c16fbcf?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="cute grey kitten"
-              />
-              <p class="p">
-                Cloud is Our brand new kitten featured on splash page. He is
-                very playful and loves to cuddle. He is ready for his new home.
-              </p>
-            </div>
-            <div class="cardDb">
 
-              <img
-                src="https://images.unsplash.com/photo-1507568237455-03228e5ddb7e?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="cute ginger kitten"
-              />
-              <!-- Image credits: Matthew larkin on unsplash -->
-              <p class="p">
-                Ginger is two months old kitten. He loves to take naps and
-                cuddle. It will be a great addition to any family.
-              </p>
-            </div>
-            <div class="cardDb">
-              <img
-                src="https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="cute grey kitten"
-              />
-              <!-- Image credits: Andriyko Podilnyk on unsplash -->
-              <p class="p">
-                Meet Blue eyes. She is very playful and loves to run around.
-                Adopt her and make her love you.
-              </p>
-            </div>
-          </section>
-        </div>
-        <div>
-          <nav>
-            <ul>
-              <li><a href="pets.html">Pets</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-      <section></section>
+  <body class="gridContainer">
+
+
+    <!-- Header starts here -->
+    <header class="flexRow header" aria-label="Header">
+      <h1>Pets R Us</h1>
+      <ul class="nav" role="navigation" aria-label="Main Navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html">Pets</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </header>
+    <!-- Heander ends here -->
+
+    <!-- Sidebar starts here -->
+    <section class="sidebar" aria-label="Sidebar">
+      <ul class="sidebar">
+        <li><a href="pets.html">Pets Health</a></li>
+        <li><a href="services.html">Dog Breeds</a></li>
+        <li><a href="contact.html">Mood and habbits</a></li>
+      </ul>
+    </section>
+    <!-- Sidebar ends here -->
+
+    <!-- Main starts here -->
+    <main class="main" aria-label="Main Content">
+      <!-- Cards for new arrivals -->
+      <h1 class="text">New Arrivals</h1>
+      <div class="cardDb">
+        <img
+          src="https://images.unsplash.com/photo-1603314585442-ee3b3c16fbcf?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="cute grey kitten"
+        />
+        <p class="p">
+          Cloud is our brand new kitten featured on the splash page. He is very
+          playful and loves to cuddle. He is ready for his new home.
+        </p>
+      </div>
+      <div class="cardDb">
+        <img
+          src="https://images.unsplash.com/photo-1507568237455-03228e5ddb7e?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="cute ginger kitten"
+        />
+        <p class="p">
+          Ginger is a two-month-old kitten. He loves to take naps and cuddle. He
+          will be a great addition to any family.
+        </p>
+      </div>
+      <div class="cardDb">
+        <img
+          src="https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="cute grey kitten"
+        />
+        <p class="p">
+          Meet Blue Eyes. She is very playful and loves to run around. Adopt her
+          and make her love you.
+        </p>
+      </div>
+      <!-- cards for new arrivals end here -->
     </main>
+    <!-- Main ends here -->
+
+    <!-- Footer starts here -->
+    <footer class="footer">
+      <!-- <div > -->
+        <p>
+          &copy; 2024 Pets R US <a href="tel:1-800-000-0001">1-800-000-0001</a>
+        </p>
+      <!-- </div> -->
+    </footer>
+    <!-- Footer ends here -->
   </body>
 </html>
